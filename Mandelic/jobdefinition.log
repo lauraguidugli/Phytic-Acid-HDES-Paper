@@ -1,0 +1,504 @@
+step: 1 info: Balloon will be used for the conf. generation nmol: 1
+generate conf. with balloon: 
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=7;nconfs=100;noGA=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=1;keepInitial=1;nconfs=100;nGenerations=20;RMSDtol=0.1;pTorsionMutation=0.5;noPopulationGrowth=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=2;nconfs=100;nGenerations=100;RMSDtol=0.2;pTorsionMutation=0.2;noPopulationGrowth=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=3;nconfs=100;nGenerations=200;RMSDtol=0.3;pTorsionMutation=0.1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=4;nconfs=100;nGenerations=500;RMSDtol=0.4
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=5;nconfs=50;nGenerations=1000;RMSDtol=0.5
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=6;nconfs=50;nGenerations=1000;RMSDtol=0.6
+thread=6, working on job 5
+thread=5, working on job 4
+thread=7, working on job 6
+thread=4, working on job 3
+thread=3, working on job 2
+thread=1, working on job 0
+thread=2, working on job 1
+normal termination
+normal termination
+Parallel execution with  10 threads
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+...done with thread 1, return value ok, 
+...done with thread 2, return value ok, 
+...done with thread 3, return value ok, 
+...done with thread 4, return value ok, 
+...done with thread 5, return value ok, 
+...done with thread 6, return value ok, 
+...done with thread 7, return value ok, 
+...done with thread 8, return value ok, 
+...done with thread 9, return value ok, 
+...done with thread 10, return value ok, 
+step: 2 info: Conf. with different uniquename than the reference structure will be neglected. nmol: 170
+delete structures with uniquecodes that differ from reference
+... uniquename check with uniquename: IMV2116HZHNS
+... uniquename check reduced number of conf. from 170 to 170
+step: 3 info: Sort by energy nmol: 170
+sort molecule set by energy
+step: 4 info: Clustering using geometry mapping nmol: 170
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 5 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 23
+reduce number of conf. (energy window:2000 kcal/mol, max. conf. 150)
+step: 6 info: BP/SV(P) COSMO single point (TM) nmol: 23
+TURBOMOLE BP-SV_P-COSMO-SP calc.
+forrtl: severe (47): write to READONLY file, unit 9, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_119\coord
+Image              PC                Routine            Line        Source             
+define.exe         00007FF7A062ACA1  Unknown               Unknown  Unknown
+define.exe         00007FF7A05BEADB  Unknown               Unknown  Unknown
+define.exe         00007FF7A04A205A  PLUMM                      45  plumm.f
+define.exe         00007FF7A04AB973  WRTXYZ                     70  wrtxyz.f
+define.exe         00007FF79FFE6662  GEOSPY                   1099  geospy.F
+define.exe         00007FF79FFD1ACF  MAIN__                    300  define.f
+define.exe         00007FF7A125E2FE  Unknown               Unknown  Unknown
+define.exe         00007FF7A1727FC0  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+forrtl: severe (47): write to READONLY file, unit 9, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_147\coord
+Image              PC                Routine            Line        Source             
+define.exe         00007FF7A062ACA1  Unknown               Unknown  Unknown
+define.exe         00007FF7A05BEADB  Unknown               Unknown  Unknown
+define.exe         00007FF7A04A205A  PLUMM                      45  plumm.f
+define.exe         00007FF7A04AB973  WRTXYZ                     70  wrtxyz.f
+define.exe         00007FF79FFE6662  GEOSPY                   1099  geospy.F
+define.exe         00007FF79FFD1ACF  MAIN__                    300  define.f
+define.exe         00007FF7A125E2FE  Unknown               Unknown  Unknown
+define.exe         00007FF7A1727FC0  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+program stopped.
+ ridft ended abnormally
+program stopped.
+ ridft ended abnormally
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+forrtl: severe (47): write to READONLY file, unit 14, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_148\control
+Image              PC                Routine            Line        Source             
+ridft.exe          00007FF720548F11  Unknown               Unknown  Unknown
+ridft.exe          00007FF7204EB7BB  Unknown               Unknown  Unknown
+ridft.exe          00007FF7203996BE  PLUMM                      45  plumm.f
+ridft.exe          00007FF720386803  TURBO_SETUP               387  turbo_setup.f
+ridft.exe          00007FF71F8212BE  MAIN__.R                  445  ridft.f
+ridft.exe          00007FF7224A8DBE  Unknown               Unknown  Unknown
+ridft.exe          00007FF722FC9A80  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+forrtl: severe (47): write to READONLY file, unit 14, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_167\control
+Image              PC                Routine            Line        Source             
+ridft.exe          00007FF720548F11  Unknown               Unknown  Unknown
+ridft.exe          00007FF7204EB7BB  Unknown               Unknown  Unknown
+ridft.exe          00007FF7203996BE  PLUMM                      45  plumm.f
+ridft.exe          00007FF720386803  TURBO_SETUP               387  turbo_setup.f
+ridft.exe          00007FF71F8212BE  MAIN__.R                  445  ridft.f
+ridft.exe          00007FF7224A8DBE  Unknown               Unknown  Unknown
+ridft.exe          00007FF722FC9A80  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+forrtl: severe (47): write to READONLY file, unit 14, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_131\control
+Image              PC                Routine            Line        Source             
+ridft.exe          00007FF720548F11  Unknown               Unknown  Unknown
+ridft.exe          00007FF7204EB7BB  Unknown               Unknown  Unknown
+ridft.exe          00007FF7203996BE  PLUMM                      45  plumm.f
+ridft.exe          00007FF720386803  TURBO_SETUP               387  turbo_setup.f
+ridft.exe          00007FF71F8212BE  MAIN__.R                  445  ridft.f
+ridft.exe          00007FF7224A8DBE  Unknown               Unknown  Unknown
+ridft.exe          00007FF722FC9A80  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+forrtl: severe (47): write to READONLY file, unit 14, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO-SP_step6\BCONF_153\control
+Image              PC                Routine            Line        Source             
+ridft.exe          00007FF720548F11  Unknown               Unknown  Unknown
+ridft.exe          00007FF7204EB7BB  Unknown               Unknown  Unknown
+ridft.exe          00007FF7203996BE  PLUMM                      45  plumm.f
+ridft.exe          00007FF720386803  TURBO_SETUP               387  turbo_setup.f
+ridft.exe          00007FF71F8212BE  MAIN__.R                  445  ridft.f
+ridft.exe          00007FF7224A8DBE  Unknown               Unknown  Unknown
+ridft.exe          00007FF722FC9A80  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+...... BCONF_164 (charge=0.0) started (thread 9) Tue 10/17/2023 20:47:29
+...... BCONF_167 (charge=0.0) started (thread 9) Tue 10/17/2023 20:47:46
+...ERROR: BCONF_167 calculation did not converge...
+...... BCONF_101 (charge=0.0) started (thread 1) Tue 10/17/2023 20:47:28
+...... BCONF_153 (charge=0.0) started (thread 1) Tue 10/17/2023 20:47:45
+...ERROR: BCONF_153 calculation did not converge...
+...... BCONF_139 (charge=0.0) started (thread 4) Tue 10/17/2023 20:47:29
+...... BCONF_131 (charge=0.0) started (thread 4) Tue 10/17/2023 20:47:45
+...ERROR: BCONF_131 calculation did not converge...
+ ridft ended normally
+...... BCONF_16 (charge=0.0) started (thread 5) Tue 10/17/2023 20:47:29
+...... BCONF_151 (charge=0.0) started (thread 5) Tue 10/17/2023 20:47:43
+ ridft ended normally
+...... BCONF_105 (charge=0.0) started (thread 3) Tue 10/17/2023 20:47:29
+...... BCONF_152 (charge=0.0) started (thread 3) Tue 10/17/2023 20:47:43
+ ridft ended normally
+...... BCONF_124 (charge=0.0) started (thread 10) Tue 10/17/2023 20:47:29
+...... BCONF_128 (charge=0.0) started (thread 10) Tue 10/17/2023 20:47:44
+ ridft ended normally
+...... BCONF_162 (charge=0.0) started (thread 6) Tue 10/17/2023 20:47:29
+...... BCONF_155 (charge=0.0) started (thread 6) Tue 10/17/2023 20:47:46
+ ridft ended normally
+...... BCONF_102 (charge=0.0) started (thread 2) Tue 10/17/2023 20:47:29
+...... BCONF_133 (charge=0.0) started (thread 2) Tue 10/17/2023 20:47:46
+ ridft ended normally
+...... BCONF_119 (charge=0.0) started (thread 7) Tue 10/17/2023 20:47:29
+...ERROR: BCONF_119 calculation did not converge...
+...... BCONF_148 (charge=0.0) started (thread 7) Tue 10/17/2023 20:47:30
+...ERROR: BCONF_148 calculation did not converge...
+...... BCONF_150 (charge=0.0) started (thread 7) Tue 10/17/2023 20:47:32
+...... BCONF_157 (charge=0.0) started (thread 7) Tue 10/17/2023 20:47:47
+ ridft ended normally
+...... BCONF_147 (charge=0.0) started (thread 8) Tue 10/17/2023 20:47:29
+...ERROR: BCONF_147 calculation did not converge...
+...... BCONF_127 (charge=0.0) started (thread 8) Tue 10/17/2023 20:47:30
+...... BCONF_156 (charge=0.0) started (thread 8) Tue 10/17/2023 20:47:46
+...done with thread 11
+...done with thread 12
+...done with thread 13
+...done with thread 14
+...done with thread 15
+...done with thread 16
+...done with thread 17
+...done with thread 18
+...done with thread 19
+...done with thread 20
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:47:59
+... BCONF_119 error: ERROR: BCONF_119 calculation did not converge
+ done: Tue 10/17/2023 20:47:59
+... BCONF_147 error: ERROR: BCONF_147 calculation did not converge
+ done: Tue 10/17/2023 20:47:59
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+... BCONF_148 error: ERROR: BCONF_148 calculation did not converge
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+... BCONF_153 error: ERROR: BCONF_153 calculation did not converge
+ done: Tue 10/17/2023 20:48:0
+... BCONF_131 error: ERROR: BCONF_131 calculation did not converge
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+... BCONF_167 error: ERROR: BCONF_167 calculation did not converge
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+ done: Tue 10/17/2023 20:48:0
+step: 7 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 23
+  Error(s) in input molecule set:
+   ERROR: BCONF_119 calculation did not converge
+   ERROR: BCONF_147 calculation did not converge
+   ERROR: BCONF_148 calculation did not converge
+   ERROR: BCONF_153 calculation did not converge
+   ERROR: BCONF_131 calculation did not converge
+   ERROR: BCONF_167 calculation did not converge
+  The following (erroneous) molecules have been deleted from the set:
+   BCONF_119
+   BCONF_147
+   BCONF_148
+   BCONF_153
+   BCONF_131
+   BCONF_167
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+...done with thread 21
+...done with thread 22
+...done with thread 23
+...done with thread 24
+...done with thread 25
+...done with thread 26
+...done with thread 27
+...done with thread 28
+...done with thread 29
+...done with thread 30
+step: 8 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 13
+reduce number of conf. (energy window:25 kcal/mol, max. conf. 50)
+step: 9 info: BP/SV(P) COSMO optimization (TM) nmol: 13
+TURBOMOLE BP-SV_P-COSMO calc.
+forrtl: severe (47): write to READONLY file, unit 14, file D:\COSMOConfX_Database\COSMOconfProject\Multitoxin-Project\mandelic-acid\BP-SV_P-COSMO_step9\BCONF_128\control
+Image              PC                Routine            Line        Source             
+define.exe         00007FF7A062ACA1  Unknown               Unknown  Unknown
+define.exe         00007FF7A05BEADB  Unknown               Unknown  Unknown
+define.exe         00007FF7A04A205A  PLUMM                      45  plumm.f
+define.exe         00007FF79FFD4E4F  TITSPY                     88  titspy.f
+define.exe         00007FF79FFD1904  MAIN__                    280  define.f
+define.exe         00007FF7A125E2FE  Unknown               Unknown  Unknown
+define.exe         00007FF7A1727FC0  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF87B517C24  Unknown               Unknown  Unknown
+ntdll.dll          00007FF87D10D721  Unknown               Unknown  Unknown
+ define ended normally 
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ ERROR: Module ridft failed to run properly - please check output for the reason
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+ ERROR: energy calculation failed,
+       most likely because of wrong input like starting an RI calculation
+       without having switched on RI 
+       or missing input (basis set, auxiliary basis set, MOs, ..) 
+       Check job.last and job.<number> for more detailed error output
+ ERROR: energy calculation failed,
+       most likely because of wrong input like starting an RI calculation
+       without having switched on RI 
+       or missing input (basis set, auxiliary basis set, MOs, ..) 
+       Check job.last and job.<number> for more detailed error output
+Please check your input
+Please check your input
+ ERROR: energy calculation failed,
+       most likely because of wrong input like starting an RI calculation
+       without having switched on RI 
+       or missing input (basis set, auxiliary basis set, MOs, ..) 
+       Check job.last and job.<number> for more detailed error output
+Please check your input
+...... BCONF_124 (charge=0.0) started (thread 3) Tue 10/17/2023 20:48:7
+...ERROR: BCONF_124 calculation did not converge...
+ define ended normally 
+ define ended normally 
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+...... BCONF_152 (charge=0.0) started (thread 8) Tue 10/17/2023 20:48:8
+...... BCONF_128 (charge=0.0) started (thread 7) Tue 10/17/2023 20:48:8
+...ERROR: BCONF_128 calculation did not converge...
+...... BCONF_162 (charge=0.0) started (thread 7) Tue 10/17/2023 20:48:9
+...... BCONF_155 (charge=0.0) started (thread 10) Tue 10/17/2023 20:48:8
+...... BCONF_101 (charge=0.0) started (thread 1) Tue 10/17/2023 20:48:7
+...... BCONF_16 (charge=0.0) started (thread 2) Tue 10/17/2023 20:48:7
+...... BCONF_133 (charge=0.0) started (thread 6) Tue 10/17/2023 20:48:8
+...ERROR: BCONF_133 calculation did not converge...
+...... BCONF_156 (charge=0.0) started (thread 6) Tue 10/17/2023 20:48:11
+...... BCONF_105 (charge=0.0) started (thread 4) Tue 10/17/2023 20:48:7
+...... BCONF_151 (charge=0.0) started (thread 9) Tue 10/17/2023 20:48:8
+...ERROR: BCONF_151 calculation did not converge...
+...... BCONF_157 (charge=0.0) started (thread 9) Tue 10/17/2023 20:48:10
+...... BCONF_102 (charge=0.0) started (thread 5) Tue 10/17/2023 20:48:8
+Parallel execution with  10 threads
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+...done with thread 31
+...done with thread 32
+...done with thread 33
+...done with thread 34
+...done with thread 35
+...done with thread 36
+...done with thread 37
+...done with thread 38
+...done with thread 39
+...done with thread 40
+ done: Tue 10/17/2023 20:59:15
+ done: Tue 10/17/2023 20:59:15
+... BCONF_124 error: ERROR: BCONF_124 calculation did not converge
+ done: Tue 10/17/2023 20:59:15
+ done: Tue 10/17/2023 20:59:15
+ done: Tue 10/17/2023 20:59:15
+... BCONF_133 error: ERROR: BCONF_133 calculation did not converge
+ done: Tue 10/17/2023 20:59:15
+... BCONF_128 error: ERROR: BCONF_128 calculation did not converge
+ done: Tue 10/17/2023 20:59:15
+ done: Tue 10/17/2023 20:59:15
+... BCONF_151 error: ERROR: BCONF_151 calculation did not converge
+ done: Tue 10/17/2023 20:59:16
+ done: Tue 10/17/2023 20:59:16
+ done: Tue 10/17/2023 20:59:16
+ done: Tue 10/17/2023 20:59:16
+ done: Tue 10/17/2023 20:59:16
+step: 10 info: Sort by energy nmol: 13
+  Error(s) in input molecule set:
+   ERROR: BCONF_124 calculation did not converge
+   ERROR: BCONF_133 calculation did not converge
+   ERROR: BCONF_128 calculation did not converge
+   ERROR: BCONF_151 calculation did not converge
+  The following (erroneous) molecules have been deleted from the set:
+   BCONF_124
+   BCONF_133
+   BCONF_128
+   BCONF_151
+sort molecule set by energy
+step: 11 info: Clustering using geometry mapping nmol: 9
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 12 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 5
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+...done with thread 41
+...done with thread 42
+...done with thread 43
+...done with thread 44
+...done with thread 45
+...done with thread 46
+...done with thread 47
+...done with thread 48
+...done with thread 49
+...done with thread 50
+step: 13 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 5
+reduce number of conf. (energy window:10.0 kcal/mol, max. conf. 12)
+step: 14 info: BP/TZVP COSMO optimization (TM) nmol: 5
+TURBOMOLE BP-TZVP-COSMO calc.
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+Cannot delete file jobex.out, continuing...
+ ERROR: energy calculation failed,
+       most likely because of wrong input like starting an RI calculation
+       without having switched on RI 
+       or missing input (basis set, auxiliary basis set, MOs, ..) 
+       Check job.last and job.<number> for more detailed error output
+Please check your input
+ ERROR: energy calculation failed,
+       most likely because of wrong input like starting an RI calculation
+       without having switched on RI 
+       or missing input (basis set, auxiliary basis set, MOs, ..) 
+       Check job.last and job.<number> for more detailed error output
+Please check your input
+...... BCONF_162 (charge=0.0) started (thread 4) Tue 10/17/2023 20:59:20
+...ERROR: BCONF_162 calculation did not converge...
+...... BCONF_152 (charge=0.0) started (thread 3) Tue 10/17/2023 20:59:20
+...ERROR: BCONF_152 calculation did not converge...
+ ridft ended normally
+...... BCONF_155 (charge=0.0) started (thread 5) Tue 10/17/2023 20:59:20
+ ridft ended normally
+...... BCONF_101 (charge=0.0) started (thread 2) Tue 10/17/2023 20:59:20
+ ridft ended normally
+...... BCONF_16 (charge=0.0) started (thread 1) Tue 10/17/2023 20:59:20
+Parallel execution with  10 threads
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+...done with thread 51
+...done with thread 52
+...done with thread 53
+...done with thread 54
+...done with thread 55
+...done with thread 56
+...done with thread 57
+...done with thread 58
+...done with thread 59
+...done with thread 60
+ done: Tue 10/17/2023 21:6:53
+ done: Tue 10/17/2023 21:6:53
+... BCONF_152 error: ERROR: BCONF_152 calculation did not converge
+ done: Tue 10/17/2023 21:6:53
+... BCONF_162 error: ERROR: BCONF_162 calculation did not converge
+ done: Tue 10/17/2023 21:6:53
+ done: Tue 10/17/2023 21:6:53
+step: 15 info: Sort by energy nmol: 5
+  Error(s) in input molecule set:
+   ERROR: BCONF_152 calculation did not converge
+   ERROR: BCONF_162 calculation did not converge
+  The following (erroneous) molecules have been deleted from the set:
+   BCONF_152
+   BCONF_162
+sort molecule set by energy
+step: 16 info: Clustering using geometry mapping nmol: 3
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 17 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 3
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+...done with thread 61
+...done with thread 62
+...done with thread 63
+...done with thread 64
+...done with thread 65
+...done with thread 66
+...done with thread 67
+...done with thread 68
+...done with thread 69
+...done with thread 70
+step: 18 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 3
+reduce number of conf. (energy window:6.0 kcal/mol, max. conf. 10)
+step: 19 info: Prints listing of molecule names and rel. energies (not used by GUI) nmol: 3
+Number of molecules in set: 3, max. printed 3
+number   name       Erel [kcal/mol]
+    0 BCONF_16  0.00
+    1 BCONF_101  0.02
+    2 BCONF_155  2.02
+step: 20 info: Copies the COSMO files of the relative path (to execution directory) nmol: 3
+copy cosmo files to: Results_of_BP-TZVP-COSMO
+step: 21 info: BP/TZVPD COSMO single point (TM) nmol: 3
+TURBOMOLE BP-TZVPD-FINE-COSMO-SP calc.
+ define ended normally 
+ define ended normally 
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+ ridft ended normally
+...... BCONF_101 (charge=0.0) started (thread 2) Tue 10/17/2023 21:6:57
+ ridft ended normally
+...... BCONF_16 (charge=0.0) started (thread 1) Tue 10/17/2023 21:6:57
+ ridft ended normally
+...... BCONF_155 (charge=0.0) started (thread 3) Tue 10/17/2023 21:6:57
+...done with thread 71
+...done with thread 72
+...done with thread 73
+...done with thread 74
+...done with thread 75
+...done with thread 76
+...done with thread 77
+...done with thread 78
+...done with thread 79
+...done with thread 80
+ done: Tue 10/17/2023 21:8:38
+ done: Tue 10/17/2023 21:8:38
+ done: Tue 10/17/2023 21:8:38
+step: 22 info: Sort by energy nmol: 3
+sort molecule set by energy
+step: 23 info: Prints listing of molecule names and rel. energies (not used by GUI) nmol: 3
+Number of molecules in set: 3, max. printed 3
+number   name       Erel [kcal/mol]
+    0 BCONF_16  0.00
+    1 BCONF_101  0.23
+    2 BCONF_155  1.72
+step: 24 info: Copies the COSMO files of the relative path (to execution directory) nmol: 3
+copy cosmo files to: Results_of_BP-TZVPD-FINE-COSMO
