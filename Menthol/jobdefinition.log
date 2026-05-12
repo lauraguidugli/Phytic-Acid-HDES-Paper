@@ -1,0 +1,404 @@
+normal termination
+normal termination
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+step: 1 info: Balloon will be used for the conf. generation nmol: 1
+generate conf. with balloon: 
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=7;nconfs=100;noGA=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=1;keepInitial=1;nconfs=100;nGenerations=20;RMSDtol=0.1;pTorsionMutation=0.5;noPopulationGrowth=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=2;nconfs=100;nGenerations=100;RMSDtol=0.2;pTorsionMutation=0.2;noPopulationGrowth=1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=3;nconfs=100;nGenerations=200;RMSDtol=0.3;pTorsionMutation=0.1
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=4;nconfs=100;nGenerations=500;RMSDtol=0.4
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=5;nconfs=50;nGenerations=1000;RMSDtol=0.5
+OPT.: verbose=0;forcefield=MMFF94.mff;fullforce=1;nInitialDimensions=6;maxtime=200000;nosymmetry=1;nobadmodels=1;expand=1;contract=1;pStereoMutation=0.00;randomSeed=6;nconfs=50;nGenerations=1000;RMSDtol=0.6
+step: 2 info: Conf. with different uniquename than the reference structure will be neglected. nmol: 183
+delete structures with uniquecodes that differ from reference
+... uniquename check with uniquename: IK9MEW23NLNR
+... uniquename check reduced number of conf. from 183 to 183
+step: 3 info: Sort by energy nmol: 183
+sort molecule set by energy
+step: 4 info: Clustering using geometry mapping nmol: 183
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 5 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 38
+reduce number of conf. (energy window:2000 kcal/mol, max. conf. 150)
+step: 6 info: BP/SV(P) COSMO single point (TM) nmol: 38
+TURBOMOLE BP-SV_P-COSMO-SP calc.
+...... BCONF_128 (charge=0.0) started Thu 8/25/2022 16:14:38
+...... BCONF_173 (charge=0.0) started Thu 8/25/2022 16:14:49
+...... BCONF_119 (charge=0.0) started Thu 8/25/2022 16:15:2
+...... BCONF_174 (charge=0.0) started Thu 8/25/2022 16:15:14
+...... BCONF_40 (charge=0.0) started Thu 8/25/2022 16:15:26
+...... BCONF_104 (charge=0.0) started Thu 8/25/2022 16:15:38
+...... BCONF_105 (charge=0.0) started Thu 8/25/2022 16:15:51
+...... BCONF_62 (charge=0.0) started Thu 8/25/2022 16:16:2
+...... BCONF_176 (charge=0.0) started Thu 8/25/2022 16:16:15
+...... BCONF_132 (charge=0.0) started Thu 8/25/2022 16:16:27
+...... BCONF_133 (charge=0.0) started Thu 8/25/2022 16:16:39
+...... BCONF_122 (charge=0.0) started Thu 8/25/2022 16:16:52
+...... BCONF_134 (charge=0.0) started Thu 8/25/2022 16:17:4
+...... BCONF_109 (charge=0.0) started Thu 8/25/2022 16:17:16
+...... BCONF_148 (charge=0.0) started Thu 8/25/2022 16:17:27
+...... BCONF_179 (charge=0.0) started Thu 8/25/2022 16:17:39
+...... BCONF_150 (charge=0.0) started Thu 8/25/2022 16:17:51
+...... BCONF_137 (charge=0.0) started Thu 8/25/2022 16:18:3
+...... BCONF_180 (charge=0.0) started Thu 8/25/2022 16:18:15
+...... BCONF_79 (charge=0.0) started Thu 8/25/2022 16:18:27
+...... BCONF_151 (charge=0.0) started Thu 8/25/2022 16:18:40
+...... BCONF_139 (charge=0.0) started Thu 8/25/2022 16:18:52
+...... BCONF_153 (charge=0.0) started Thu 8/25/2022 16:19:4
+...... BCONF_140 (charge=0.0) started Thu 8/25/2022 16:19:15
+...... BCONF_115 (charge=0.0) started Thu 8/25/2022 16:19:27
+...... BCONF_94 (charge=0.0) started Thu 8/25/2022 16:19:38
+...... BCONF_116 (charge=0.0) started Thu 8/25/2022 16:19:50
+...... BCONF_155 (charge=0.0) started Thu 8/25/2022 16:20:1
+...... BCONF_141 (charge=0.0) started Thu 8/25/2022 16:20:13
+...... BCONF_93 (charge=0.0) started Thu 8/25/2022 16:20:25
+...... BCONF_142 (charge=0.0) started Thu 8/25/2022 16:20:37
+...... BCONF_157 (charge=0.0) started Thu 8/25/2022 16:20:49
+...... BCONF_183 (charge=0.0) started Thu 8/25/2022 16:21:1
+...... BCONF_158 (charge=0.0) started Thu 8/25/2022 16:21:13
+...... BCONF_127 (charge=0.0) started Thu 8/25/2022 16:21:25
+...... BCONF_159 (charge=0.0) started Thu 8/25/2022 16:21:38
+...... BCONF_170 (charge=0.0) started Thu 8/25/2022 16:21:50
+...... BCONF_171 (charge=0.0) started Thu 8/25/2022 16:22:2
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:13
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:14
+ done: Thu 8/25/2022 16:22:15
+ done: Thu 8/25/2022 16:22:15
+step: 7 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 38
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+step: 8 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 15
+reduce number of conf. (energy window:25 kcal/mol, max. conf. 50)
+step: 9 info: BP/SV(P) COSMO optimization (TM) nmol: 15
+TURBOMOLE BP-SV_P-COSMO calc.
+...... BCONF_128 (charge=0.0) started Thu 8/25/2022 16:24:4
+...... BCONF_173 (charge=0.0) started Thu 8/25/2022 16:29:3
+...... BCONF_174 (charge=0.0) started Thu 8/25/2022 16:36:9
+...... BCONF_104 (charge=0.0) started Thu 8/25/2022 16:41:20
+...... BCONF_119 (charge=0.0) started Thu 8/25/2022 16:46:38
+...... BCONF_40 (charge=0.0) started Thu 8/25/2022 16:51:4
+...... BCONF_176 (charge=0.0) started Thu 8/25/2022 16:56:30
+...... BCONF_105 (charge=0.0) started Thu 8/25/2022 17:0:57
+...... BCONF_132 (charge=0.0) started Thu 8/25/2022 17:9:18
+...... BCONF_134 (charge=0.0) started Thu 8/25/2022 17:14:15
+...... BCONF_109 (charge=0.0) started Thu 8/25/2022 17:19:32
+...... BCONF_139 (charge=0.0) started Thu 8/25/2022 17:26:22
+...... BCONF_153 (charge=0.0) started Thu 8/25/2022 17:30:54
+...... BCONF_151 (charge=0.0) started Thu 8/25/2022 17:36:58
+...... BCONF_171 (charge=0.0) started Thu 8/25/2022 17:41:18
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+ done: Thu 8/25/2022 17:46:55
+step: 10 info: Sort by energy nmol: 15
+sort molecule set by energy
+step: 11 info: Clustering using geometry mapping nmol: 15
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 12 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 15
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+step: 13 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy wi define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+ define ended normally 
+Cannot delete file jobex.out, continuing...
+ ridft ended normally
+thresholds: angle=   20.00 distance=    0.50
+normal termination
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ define ended normally 
+ ridft ended normally
+ ridft ended normally
+ndow) nmol: 11
+reduce number of conf. (energy window:10.0 kcal/mol, max. conf. 12)
+step: 14 info: BP/TZVP COSMO optimization (TM) nmol: 11
+TURBOMOLE BP-TZVP-COSMO calc.
+...... BCONF_128 (charge=0.0) started Thu 8/25/2022 17:47:39
+...... BCONF_174 (charge=0.0) started Thu 8/25/2022 17:56:22
+...... BCONF_173 (charge=0.0) started Thu 8/25/2022 18:3:57
+...... BCONF_40 (charge=0.0) started Thu 8/25/2022 18:13:45
+...... BCONF_105 (charge=0.0) started Thu 8/25/2022 18:22:11
+...... BCONF_104 (charge=0.0) started Thu 8/25/2022 18:32:58
+...... BCONF_176 (charge=0.0) started Thu 8/25/2022 18:42:30
+...... BCONF_132 (charge=0.0) started Thu 8/25/2022 18:51:37
+...... BCONF_134 (charge=0.0) started Thu 8/25/2022 19:1:31
+...... BCONF_139 (charge=0.0) started Thu 8/25/2022 19:7:22
+...... BCONF_151 (charge=0.0) started Thu 8/25/2022 19:15:29
+ done: Thu 8/25/2022 19:23:30
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+ done: Thu 8/25/2022 19:23:31
+step: 15 info: Sort by energy nmol: 11
+sort molecule set by energy
+step: 16 info: Clustering using geometry mapping nmol: 11
+clustering GEOCHECK (threshold: -d :0.5, -a: 20, )
+step: 17 info: Clustering using COSMO-RS chem. pot. (COSMO results only) nmol: 11
+clustering w.r.t. COSMO-RS chem. pot. (thr: 0.2, def. file: cluster_mu.def)
+step: 18 info: Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window) nmol: 11
+reduce number of conf. (energy window:6.0 kcal/mol, max. conf. 10)
+step: 19 info: Prints listing of molecule names and rel. energies (not used by GUI) nmol: 10
+Number of molecules in set: 10, max. printed 10
+number   name       Erel [kcal/mol]
+    0 BCONF_174  0.00
+    1 BCONF_173  0.23
+    2 BCONF_128  0.24
+    3 BCONF_40  0.35
+    4 BCONF_105  0.58
+    5 BCONF_176  1.08
+    6 BCONF_132  1.32
+    7 BCONF_104  1.46
+    8 BCONF_134  2.76
+    9 BCONF_139  4.33
+step: 20 info: Copies the COSMO files of the relative path (to execution directory) nmol: 10
+copy cosmo files to: Results_of_BP-TZVP-COSMO
+step: 21 info: BP/TZVPD COSMO single point (TM) nmol: 10
+TURBOMOLE BP-TZVPD-FINE-COSMO-SP calc.
+...... BCONF_174 (charge=0.0) started Thu 8/25/2022 19:24:3
+...... BCONF_173 (charge=0.0) started Thu 8/25/2022 19:26:31
+...... BCONF_128 (charge=0.0) started Thu 8/25/2022 19:29:6
+...... BCONF_40 (charge=0.0) started Thu 8/25/2022 19:31:41
+...... BCONF_105 (charge=0.0) started Thu 8/25/2022 19:34:16
+...... BCONF_176 (charge=0.0) started Thu 8/25/2022 19:36:51
+...... BCONF_132 (charge=0.0) started Thu 8/25/2022 19:39:19
+...... BCONF_104 (charge=0.0) started Thu 8/25/2022 19:41:46
+...... BCONF_134 (charge=0.0) started Thu 8/25/2022 19:44:21
+...... BCONF_139 (charge=0.0) started Thu 8/25/2022 19:46:46
+ done: Thu 8/25/2022 19:49:19
+ done: Thu 8/25/2022 19:49:19
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+ done: Thu 8/25/2022 19:49:20
+step: 22 info: Sort by energy nmol: 10
+sort molecule set by energy
+step: 23 info: Prints listing of molecule names and rel. energies (not used by GUI) nmol: 10
+Number of molecules in set: 10, max. printed 10
+number   name       Erel [kcal/mol]
+    0 BCONF_174  0.00
+    1 BCONF_128  0.17
+    2 BCONF_173  0.20
+    3 BCONF_40  0.30
+    4 BCONF_105  0.53
+    5 BCONF_176  0.96
+    6 BCONF_132  1.15
+    7 BCONF_104  1.51
+    8 BCONF_134  2.69
+    9 BCONF_139  4.23
+step: 24 info: Copies the COSMO files of the relative path (to execution directory) nmol: 10
+copy cosmo files to: Results_of_BP-TZVPD-FINE-COSMO

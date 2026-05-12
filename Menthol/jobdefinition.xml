@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<job>
+   <error>
+      <number>0</number>
+      <message></message>
+   </error>
+   <info></info>
+   <clean_up>1</clean_up>
+   <molecule_set_in>input_set.xml</molecule_set_in>
+   <molecule_set_out extractable="separate" directory="BP-TZVPD-FINE">BP-TZVPD-FINE-COSMO.xml</molecule_set_out>
+   <job_schedule>
+      <step>
+         <number>1</number>
+         <info>Balloon will be used for the conf. generation</info>
+         <method>BALLOON_CONF_GEN</method>
+         <status>ready;Thu 8/25/2022 16:14:36;nmol=183</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>2</number>
+         <info>Conf. with different uniquename than the reference structure will be neglected.</info>
+         <method>REDUCE_TO_UNIQUECODE</method>
+         <reference>input_set.xml</reference>
+         <status>ready;Thu 8/25/2022 16:14:37;nmol=183</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>3</number>
+         <info>Sort by energy</info>
+         <method>SORT_BY_E</method>
+         <status>ready;Thu 8/25/2022 16:14:37;nmol=183</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>4</number>
+         <info>Clustering using geometry mapping</info>
+         <method>CLUSTER_GEOCHECK</method>
+         <status>ready;Thu 8/25/2022 16:14:37;nmol=38</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>5</number>
+         <info>Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window)</info>
+         <method>REDUCE_BY_E_MAX</method>
+         <energy_window>2000</energy_window>
+         <n_max>150</n_max>
+         <status>ready;Thu 8/25/2022 16:14:37;nmol=38</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>6</number>
+         <info>BP/SV(P) COSMO single point (TM)</info>
+         <method>BP-SV_P-COSMO-SP</method>
+         <status>ready;Thu 8/25/2022 16:22:15;nmol=38</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>7</number>
+         <info>Clustering using COSMO-RS chem. pot. (COSMO results only)</info>
+         <method>CLUSTER_MU</method>
+         <status>ready;Thu 8/25/2022 16:24:4;nmol=15</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>8</number>
+         <info>Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window)</info>
+         <method>REDUCE_BY_E_MAX</method>
+         <energy_window>25</energy_window>
+         <n_max>50</n_max>
+         <status>ready;Thu 8/25/2022 16:24:4;nmol=15</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>9</number>
+         <info>BP/SV(P) COSMO optimization (TM)</info>
+         <method>BP-SV_P-COSMO</method>
+         <status>ready;Thu 8/25/2022 17:46:56;nmol=15</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>10</number>
+         <info>Sort by energy</info>
+         <method>SORT_BY_E</method>
+         <status>ready;Thu 8/25/2022 17:46:56;nmol=15</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>11</number>
+         <info>Clustering using geometry mapping</info>
+         <method>CLUSTER_GEOCHECK</method>
+         <status>ready;Thu 8/25/2022 17:46:56;nmol=15</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>12</number>
+         <info>Clustering using COSMO-RS chem. pot. (COSMO results only)</info>
+         <method>CLUSTER_MU</method>
+         <status>ready;Thu 8/25/2022 17:47:39;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>13</number>
+         <info>Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window)</info>
+         <method>REDUCE_BY_E_MAX</method>
+         <n_max>12</n_max>
+         <energy_window>10.0</energy_window>
+         <status>ready;Thu 8/25/2022 17:47:39;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>14</number>
+         <info>BP/TZVP COSMO optimization (TM)</info>
+         <method>BP-TZVP-COSMO</method>
+         <add_gas_phase_energy>on</add_gas_phase_energy>
+         <status>ready;Thu 8/25/2022 19:23:31;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>15</number>
+         <info>Sort by energy</info>
+         <method>SORT_BY_E</method>
+         <status>ready;Thu 8/25/2022 19:23:31;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>16</number>
+         <info>Clustering using geometry mapping</info>
+         <method>CLUSTER_GEOCHECK</method>
+         <status>ready;Thu 8/25/2022 19:23:31;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>17</number>
+         <info>Clustering using COSMO-RS chem. pot. (COSMO results only)</info>
+         <method>CLUSTER_MU</method>
+         <status>ready;Thu 8/25/2022 19:24:3;nmol=11</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>18</number>
+         <info>Conf. reduction. The number of conf. is defined by the tighter crit. (max number or energy window)</info>
+         <molecule_set_out extractable="separate" directory="BP-TZVP">BP-TZVP-COSMO.xml</molecule_set_out>
+         <method>REDUCE_BY_E_MAX</method>
+         <energy_window>6.0</energy_window>
+         <n_max>10</n_max>
+         <status>ready;Thu 8/25/2022 19:24:3;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>19</number>
+         <info>Prints listing of molecule names and rel. energies (not used by GUI)</info>
+         <method>PRINT_CONF_INFO</method>
+         <status>ready;Thu 8/25/2022 19:24:3;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>20</number>
+         <info>Copies the COSMO files of the relative path (to execution directory)</info>
+         <method>COPY_COSMO_FILE</method>
+         <path>Results_of_BP-TZVP-COSMO</path>
+         <status>ready;Thu 8/25/2022 19:24:3;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>21</number>
+         <info>BP/TZVPD COSMO single point (TM)</info>
+         <method>BP-TZVPD-FINE-COSMO-SP</method>
+         <add_gas_phase_energy>on</add_gas_phase_energy>
+         <status>ready;Thu 8/25/2022 19:49:20;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>22</number>
+         <info>Sort by energy</info>
+         <method>SORT_BY_E</method>
+         <status>ready;Thu 8/25/2022 19:49:20;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>23</number>
+         <info>Prints listing of molecule names and rel. energies (not used by GUI)</info>
+         <method>PRINT_CONF_INFO</method>
+         <status>ready;Thu 8/25/2022 19:49:20;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+      <step>
+         <number>24</number>
+         <info>Copies the COSMO files of the relative path (to execution directory)</info>
+         <method>COPY_COSMO_FILE</method>
+         <path>Results_of_BP-TZVPD-FINE-COSMO</path>
+         <status>ready;Thu 8/25/2022 19:49:20;nmol=10</status>
+         <error>
+            <number>0</number>
+            <message></message>
+         </error>
+      </step>
+   </job_schedule>
+</job>

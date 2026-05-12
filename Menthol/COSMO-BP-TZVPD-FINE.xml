@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : jobTemplate.xml
+    Created on : 16. Mai 2008, 16:43
+    Author     : Claudia
+	Modified   : Thommy 14.03.2017
+    Description:
+        Purpose of the document follows.
+-->
+<templatelist>
+
+<jobtemplate>
+    <symmetry check="no" deviation="0.001"/>
+    <basis>def-TZVP</basis>
+    <molecularCharge/>
+    <multiplicity>Automatic (RHF/UHF)</multiplicity>
+    <freezingPoint>-9.99999999E8</freezingPoint>
+    <fermi/>
+	<periodic dim=""/>
+    <levelOfTheory>DFT</levelOfTheory>
+    <ri>on</ri>
+    <dftSettings>
+	<functional>b-p</functional>
+	<gridsize>m3</gridsize>
+	<disp>0</disp>
+	</dftSettings>
+    <scfConvergenceParameter>
+        <maxIterations>200</maxIterations>
+        <energy>6</energy>
+        <density/>
+    </scfConvergenceParameter>
+	<scfDamp>
+         <start>0.700</start>
+         <min>0.100</min>
+         <step>0.050</step>
+      </scfDamp>
+	<scfDynpol/>
+	<plotOrbitals/>
+    <cosmo cavity="Default" epsilon="" filename="fromJob" filetype="cosmo" remove_inner_cavity="0">on</cosmo>
+    <jobType cycles="200" energy="6" gradient="3" includeWeightDerivatives="no" optimizeCellParameters="no" type="geo" useInternalCoods="yes" writeGasGeo="no"/>
+    <jobTypeIdentifier>GEO</jobTypeIdentifier>
+<name>COSMO_TZVP</name>
+   </jobtemplate>
+<jobtemplate>
+    <symmetry check="no" deviation="0.001"/>
+    <basis>def2-TZVPD</basis>
+    <molecularCharge/>
+    <multiplicity>Automatic (RHF/UHF)</multiplicity>
+    <freezingPoint>-9.99999999E8</freezingPoint>
+    <fermi/>
+	<periodic dim=""/>
+    <levelOfTheory>DFT</levelOfTheory>
+    <ri>on</ri>
+    <dftSettings>
+	<functional>b-p</functional>
+	<gridsize>m3</gridsize>
+	<disp>0</disp>
+	</dftSettings>
+    <scfConvergenceParameter>
+        <maxIterations>200</maxIterations>
+        <energy>6</energy>
+        <density/>
+    </scfConvergenceParameter>
+	<scfDamp>
+         <start>0.700</start>
+         <min>0.100</min>
+         <step>0.050</step>
+      </scfDamp>
+	<scfDynpol/>
+	<plotOrbitals/>
+    <cosmo cavity="Fine" epsilon="" filename="out_fine" filetype="cosmo" remove_inner_cavity="0">on</cosmo>
+    <jobType type="sp" writeGasGeo="no"/>
+    <jobTypeIdentifier>SP</jobTypeIdentifier>
+<name>COSMO_TZVPD_FINE</name>
+   </jobtemplate>
+</templatelist>
